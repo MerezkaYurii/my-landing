@@ -6,8 +6,8 @@ export default function Hero() {
 
   return (
     <section className="hero px-2 sm:px-4 lg:px-6 ">
-      <div className="container  mx-auto py-16  text-center bg-gray-100 dark:bg-white/5 rounded-2xl mb-[15px]">
-        <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-8">
+      <div className="container  mx-auto py-5  text-center bg-gray-100 dark:bg-white/5 rounded-2xl mb-[15px]">
+        <div className="flex flex-col-reverse  items-center justify-center gap-8">
           <div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
               {t("hero.title")}
@@ -19,12 +19,19 @@ export default function Hero() {
               {t("hero.cta")}
             </button>
           </div>
-          <div className="relative w-28 h-28 sm:w-40 sm:h-40 md:w-48 md:h-48">
+
+          <div className="relative w-28 h-28 sm:w-40 sm:h-40 md:w-[500px] md:h-[500px] ">
             <Image
-              src={"/img-for-title-contur.svg"}
+              src="/pictures_1.png"
+              fill
+              alt="hero light"
+              className="object-contain transition duration-500 dark:hidden"
+            />
+            <Image
+              src={"/pictures_2.png"}
               fill
               alt="hero image"
-              className="object-contain dark:invert transition duration-500"
+              className="object-contain  transition duration-500  hidden dark:block"
             />
           </div>
         </div>
