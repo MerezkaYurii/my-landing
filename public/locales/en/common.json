@@ -1,0 +1,48 @@
+{
+  "header": {
+    "siteTitle": "My Template",
+    "phone": "+380 99 123 4567"
+  },
+  "hero": {
+    "title": "Fast and Affordable Websites",
+    "subtitle": "A simple landing page for your business — ready in hours",
+    "cta": "Order a Website"
+  },
+  "about": {
+    "title": "About Us",
+    "text": "We create simple, clear websites for small businesses. Fast, affordable, and effective."
+  },
+  "services": {
+    "title": "Our Services",
+
+    "items": [
+      {
+        "id": 1,
+        "image": "/img-1.png",
+        "name": "Landing Page",
+        "desc": "A one-page website for a product or service"
+      },
+      {
+        "id": 2,
+        "image": "/img-2.png",
+        "name": "Business Card",
+        "desc": "A short site with your contacts and services"
+      },
+      {
+        "id": 3,
+        "image": "/img-3.png",
+        "name": "Mini Shop",
+        "desc": "A small catalog without a complex backend"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "phone": "Phone",
+    "email": "Email",
+    "button": "Write to us"
+  },
+  "footer": {
+    "text": "made with"
+  }
+}
