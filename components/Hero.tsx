@@ -6,7 +6,7 @@ export default function Hero() {
 
   return (
     <section className="hero px-2 sm:px-4 lg:px-6 ">
-      <div className="container  mx-auto py-5  text-center bg-gray-100 dark:bg-white/5 rounded-2xl mb-[15px]">
+      <div className="container  mx-auto py-5  text-center bg-gray-600/30 dark:bg-gray-800/40 rounded-2xl mb-[15px]">
         <div className="flex flex-col-reverse  items-center justify-center gap-8">
           <div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 leading-tight">

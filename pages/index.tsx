@@ -18,10 +18,30 @@ export default function Home() {
     <>
       <Header />
       <main className="pt-[75px]">
-        <Hero />
-        <About />
-        <Services />
-        <Contact contact={siteData.contact} />
+        <div className="container mx-auto relative z-0">
+          <video
+            className="absolute inset-0 w-full h-full object-cover"
+            src="/theme-white.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+          <video
+            className=" absolute inset-0 z-0 w-full h-full object-cover hidden dark:block"
+            src="/theme-black.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+          <div className=" relative  z-10 ">
+            <Hero />
+            <About />
+            <Services />
+            <Contact contact={siteData.contact} />
+          </div>
+        </div>
       </main>
       <Footer />
     </>
