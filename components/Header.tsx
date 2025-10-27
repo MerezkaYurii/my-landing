@@ -7,10 +7,14 @@ export default function Header() {
   const contacts = data.contacts;
   const { t } = useTranslation("common");
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-gray-300/50 shadow-sm dark:bg-gray-900/70 dark:text-white transition-colors duration-500">
-      <div className="container mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between">
-        <div className="text-lg sm:text-xl font-bold mb-2 sm:mb-0">
-          {t("header.siteTitle")}
+    <header className="fixed top-0 left-0 w-full z-50 bg-gray-400/80 shadow-sm dark:bg-gray-900/70 dark:text-white transition-colors duration-500 ">
+      <div className="container mx-auto px-4 sm:px-6 py-3 flex  items-center justify-between h-[70px] ">
+        {/* <div className="text-lg sm:text-xl font-bold mb-2 sm:mb-0"> */}
+        {/* {t("header.siteTitle")} */}
+        <div className="flex items-center ">
+          <svg className="w-40 h-auto fill-black dark:fill-white">
+            <use href="/sprite.svg#icon-logo_nebulacode" />
+          </svg>
         </div>
 
         <div className="flex items-center gap-2">

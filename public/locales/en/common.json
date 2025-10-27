@@ -1,16 +1,31 @@
 {
   "header": {
-    "siteTitle": "NebulaCode",
+    "siteTitle": "NEBULACODE",
     "phone": "+380 99 123 4567"
   },
   "hero": {
     "title": "Fast and Affordable Websites",
     "subtitle": "A simple landing page for your business — ready in hours",
+    "text": "11111111111111111111111111111111111111",
     "cta": "Order a Website"
   },
   "about": {
-    "title": "About Us",
-    "text": "We create simple, clear websites for small businesses. Fast, affordable, and effective."
+    "main_title": "OUR APPROACH",
+    "main_text": "The perfect balance of design and technology",
+    "principles": {
+      "principle1": {
+        "title": "Focus on UX/UI (Figma)",
+        "text": "Design is an investment. We start with a deep understanding of your user to create an interface in Figma that is not just beautiful, but highly convertible. Every element serves a purpose."
+      },
+      "principle2": {
+        "title": "Focus on Technology (Next.js/React)",
+        "text": "Speed is the standard. Our choice of Next.js and React guarantees your site will be lightning-fast, SEO-friendly, and ready for any scaling. We write clean, documented code."
+      },
+      "principle3": {
+        "title": "Transparency and Full Cycle Launch",
+        "text": "Transparency and results. We take responsibility for the entire cycle: from analysis, prototyping, development, and testing to final deployment and support. You always know the status of your project."
+      }
+    }
   },
   "services": {
     "title": "Our Services",

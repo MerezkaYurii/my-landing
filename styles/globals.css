@@ -5,7 +5,7 @@
 html,
 body,
 #__next {
-  @apply min-h-screen transition-colors duration-500  bg-gray-500 text-gray-900  dark:text-white;
+  @apply min-h-screen transition-colors duration-500  bg-gray-400 text-gray-900  dark:text-white;
 }
 
 /* dark:bg-[#011238] */

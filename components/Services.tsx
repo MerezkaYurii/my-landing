@@ -11,7 +11,7 @@ export default function Services() {
   }[];
   return (
     <section className="px-2 sm:px-4 lg:px-6">
-      <div className="container mx-auto px-6 py-16 bg-gray-600/30 dark:bg-gray-800/40 rounded-2xl mb-[15px]">
+      <div className="container mx-auto px-6 py-16 bg-gray-400/80 dark:bg-gray-900/80 rounded-2xl mb-[15px]">
         <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-6">
           {t("services.title")}
         </h2>
