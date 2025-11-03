@@ -1,5 +1,6 @@
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
+import ModalOrder from "./ModalOrder";
 
 export default function Hero() {
   const { t } = useTranslation("common");
@@ -16,9 +17,10 @@ export default function Hero() {
               {t("hero.subtitle")}
             </h2>
 
-            <button className="px-4 py-2  bg-blue-700 text-white rounded-xl hover:opacity-80 transition  duration-500">
+            {/* <button className="px-4 py-2  bg-blue-700 text-white rounded-xl hover:opacity-80 transition  duration-500">
               {t("hero.cta")}
-            </button>
+            </button> */}
+            <ModalOrder />
           </div>
 
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px] ">

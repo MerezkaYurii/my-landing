@@ -4,26 +4,38 @@
     "phone": "+380 99 123 4567"
   },
   "hero": {
-    "title": "Fast and Affordable Websites",
-    "subtitle": "A simple landing page for your business — ready in hours",
-    "text": "11111111111111111111111111111111111111",
+    "title": "Fast and efficient web solutions",
+    "subtitle": "Concept view - to perfect code",
     "cta": "Order a Website"
   },
+
+  "ModalOrder": {
+    "cta": "Order a Website",
+    "title": "Leave a request",
+    "ph-name": "Your name",
+    "ph-email": "Email or Telegram",
+    "ph-textarea": "Briefly describe what is needed",
+    "success": "Thank you! We will be in touch soon.",
+    "error": "Error. Please try again.",
+    "btn": "Send",
+    "loding": "Sending..."
+  },
+
   "about": {
-    "main_title": "OUR APPROACH",
-    "main_text": "The perfect balance of design and technology",
+    "main_title": "NebulaCode — design and technology",
+    "main_text": "We create digital products that combine beauty, speed, and functionality.",
     "principles": {
       "principle1": {
-        "title": "Focus on UX/UI (Figma)",
-        "text": "Design is an investment. We start with a deep understanding of your user to create an interface in Figma that is not just beautiful, but highly convertible. Every element serves a purpose."
+        "title": "Focus on design",
+        "text": "Design is a strategy. We study user needs to craft interfaces that attract attention, build trust, and inspire action."
       },
       "principle2": {
-        "title": "Focus on Technology (Next.js/React)",
-        "text": "Speed is the standard. Our choice of Next.js and React guarantees your site will be lightning-fast, SEO-friendly, and ready for any scaling. We write clean, documented code."
+        "title": "Focus on quality",
+        "text": "We build websites that perform fast, run smoothly, and look flawless on any device. Every detail matters — from structure to the finest animation."
       },
       "principle3": {
-        "title": "Transparency and Full Cycle Launch",
-        "text": "Transparency and results. We take responsibility for the entire cycle: from analysis, prototyping, development, and testing to final deployment and support. You always know the status of your project."
+        "title": "Transparency and results",
+        "text": "We work openly, sharing every step of the process. You see the progress and receive results that exceed expectations."
       }
     }
   },
