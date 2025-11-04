@@ -16,7 +16,9 @@ export default function About() {
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 leading-tight">
           {t("about.main_title")}
         </h2>
-        <p className="text-2xl font-bold mb-4">{t("about.main_text")}</p>
+        <p className="text-2xl font-bold mb-4 text-gray-700 dark:text-white">
+          {t("about.main_text")}
+        </p>
 
         {principlesKeys.map((key) => {
           return (
@@ -24,12 +26,12 @@ export default function About() {
               <div className="w-3/4 mx-auto">
                 <div className="flex gap-3 justify-center pr-16">
                   <SuccessAnimation />
-                  <h4 className="text-xl sm:text-2xl md:text-3xl mb-1 font-bold text-gray-700 dark:text-gray-300">
+                  <h4 className="text-xl sm:text-2xl md:text-3xl mb-1 font-bold text-gray-900 dark:text-gray-300">
                     {t(`about.principles.${key}.title`)}
                   </h4>
                 </div>
 
-                <p className="text-base sm:text-lg md:text-xl mb-8 text-gray-700 dark:text-gray-300">
+                <p className="text-base sm:text-lg md:text-xl mb-8 text-gray-800 dark:text-gray-200">
                   {t(`about.principles.${key}.text`)}
                 </p>
               </div>

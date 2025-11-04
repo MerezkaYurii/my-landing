@@ -1,28 +1,43 @@
 "use client";
-import Lottie from "lottie-react";
 
-import { useTheme } from "next-themes";
+import Lottie, { LottieRefCurrentProps } from "lottie-react";
 
-import animationData from "@/public/animations/ssuccess_3-light.json";
-import { useEffect, useState } from "react";
+import darkSuccess from "@/public/animations/success_3-dark.json";
+import lightSuccess from "@/public/animations/success_3-indigo.json";
+import { useEffect, useRef } from "react";
 
 export const SuccessAnimation = () => {
-  const { theme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const lightRef = useRef<LottieRefCurrentProps | null>(null);
+  const darkRef = useRef<LottieRefCurrentProps | null>(null);
+
   useEffect(() => {
-    setMounted(true);
+    if (lightRef.current) lightRef.current.setSpeed(0.5);
+    if (darkRef.current) darkRef.current.setSpeed(0.5);
   }, []);
 
-  const isDark = mounted && theme === "dark";
-
   return (
-    <div className={isDark ? "filter brightness-0 invert" : ""}>
-      <Lottie
-        animationData={animationData}
-        loop
-        autoplay
-        className="w-12 h-12"
-      />
+    <div className="relative w-12 h-12">
+      {/* Светлая тема */}
+      <div className="dark:hidden">
+        <Lottie
+          lottieRef={lightRef}
+          animationData={lightSuccess}
+          loop
+          autoplay
+          className="w-12 h-12"
+        />
+      </div>
+
+      {/* Тёмная тема */}
+      <div className="hidden dark:block">
+        <Lottie
+          lottieRef={darkRef}
+          animationData={darkSuccess}
+          loop
+          autoplay
+          className="w-12 h-12"
+        />
+      </div>
     </div>
   );
 };
