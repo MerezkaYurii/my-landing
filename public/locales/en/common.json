@@ -40,24 +40,28 @@
     }
   },
   "services": {
-    "title": "Our Services",
-
+    "title": "What we offer:",
+    "subtitle": "Modern websites — from vision to success",
     "items": [
       {
         "id": 1,
-        "image": "/img-1.png",
+        "image": "/servise_img_1.png",
         "name": "Landing Page",
-        "desc": "A one-page website for a product or service"
+        "price": "from 300$",
+        "specification": "A one-page website that sells. We create modern landing pages with clear structure, logic, and a strong focus on action. An ideal choice for launching a product or promoting a service.",
+        "desc": " 1–3 pages \n Custom design + dark theme \n Fully responsive layout \n Smooth animation and dynamics \n Contact form with email or messenger integration \n SEO optimization \n Multilingual support \n Delivery time — 5–7 days \n Express development — 1–2 days"
       },
       {
         "id": 2,
-        "image": "/img-2.png",
-        "name": "Business Card",
-        "desc": "A short site with your contacts and services"
+        "image": "/servise_img_5.png",
+        "name": "Business Card Website",
+        "price": "від 400$",
+        "specification": "Your business deserves to stand out. A business card website is a simple and effective way to introduce yourself online, showcase your services, and build trust at first glance.",
+        "desc": "3–5 pages \n Modern design and clear structure \n Fully responsive on all devices \n Smooth animations and pleasant visuals \n Contact form or messenger integration \n SEO optimization \n Development time — 7–10 days "
       },
       {
         "id": 3,
-        "image": "/img-3.png",
+        "image": "/servise_img_6.png",
         "name": "Mini Shop",
         "desc": "A small catalog without a complex backend"
       }

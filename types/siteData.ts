@@ -19,7 +19,10 @@ export interface AboutData {
 
 export interface Service {
   id?: number;
+  image: string;
+  price: string;
   title: string;
+  specification: string;
   desc: string;
 }
 
