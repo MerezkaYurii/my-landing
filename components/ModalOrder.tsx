@@ -2,8 +2,10 @@
 
 import { useEffect, useState } from "react";
 import { useTranslation } from "next-i18next";
-
-export default function ModalOrder() {
+interface ModalOrderProps {
+  buttonLabel?: string; // <-- добавили возможность задать свой текст кнопки
+}
+export default function ModalOrder({ buttonLabel }: ModalOrderProps) {
   const { t } = useTranslation("common");
   const [isOpen, setIsOpen] = useState(false);
   const [formData, setFormData] = useState({
@@ -70,7 +72,7 @@ export default function ModalOrder() {
         onClick={openModal}
         className="px-6 py-3 bg-gradient-to-r from-indigo-800 to-purple-600 text-white rounded-xl shadow-lg hover:opacity-80 transition  duration-500"
       >
-        {t("ModalOrder.cta")}
+        {buttonLabel || t("ModalOrder.cta")}
       </button>
 
       {/* Модалка */}
@@ -80,7 +82,7 @@ export default function ModalOrder() {
           onClick={closeModal}
         >
           <div
-            className="bg-white dark:bg-neutral-900 p-6 rounded-2xl max-w-md w-full shadow-xl relative"
+            className="bg-gray-400 dark:bg-neutral-900 p-6 rounded-2xl max-w-md w-full shadow-xl relative"
             onClick={(e) => e.stopPropagation()}
           >
             <h2 className="text-2xl font-semibold mb-4 text-center text-neutral-800 dark:text-neutral-100">

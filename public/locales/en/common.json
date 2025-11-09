@@ -57,22 +57,26 @@
         "name": "Business Card Website",
         "price": "від 400$",
         "specification": "Your business deserves to stand out. A business card website is a simple and effective way to introduce yourself online, showcase your services, and build trust at first glance.",
-        "desc": "3–5 pages \n Modern design and clear structure \n Fully responsive on all devices \n Smooth animations and pleasant visuals \n Contact form or messenger integration \n SEO optimization \n Development time — 7–10 days "
+        "desc": "3–5 pages \n Modern design and clear structure \n Fully responsive on all devices \n Smooth animations and pleasant visuals \n Contact form or messenger integration \n SEO optimization \n Multilingual support\n Development time — 7–10 days "
       },
       {
         "id": 3,
         "image": "/servise_img_6.png",
-        "name": "Mini Shop",
-        "desc": "A small catalog without a complex backend"
+        "name": "Mini Online Store",
+        "price": "from $600",
+        "specification": "A compact online store that looks professional, performs quickly, and encourages purchases. A simple and user-friendly website that lets you sell products without unnecessary costs.",
+        "desc": "5+ pages\nDesign in your style + dark theme\nProduct catalog \n Cart and checkout form\n Payment integration \n Responsive design for all devices \n SEO optimization\n Multilingual support \n Delivery time — 10–15 days"
       }
     ]
   },
   "contact": {
     "title": "Contact Us",
+    "desc": "Have an idea or a question? We'll help you find the right solution.",
     "phone": "Phone",
     "email": "Email",
     "button": "Write to us"
   },
+
   "footer": {
     "text": "made with"
   }

@@ -11,6 +11,7 @@ import data from "../data/siteData.json";
 import { SiteData } from "../types/siteData";
 
 import { serverSideTranslations } from "next-i18next/serverSideTranslations.js";
+
 import { i18nConfig } from "../next-i18next.config.mjs";
 import { GetStaticProps } from "next";
 import { useEffect, useRef } from "react";

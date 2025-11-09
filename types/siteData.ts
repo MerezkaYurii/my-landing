@@ -27,9 +27,12 @@ export interface Service {
 }
 
 export interface ContactData {
+  title: string;
+  desc: string;
   phone: string;
   email: string;
   address?: string;
+  button: string;
 }
 
 export interface SiteData {
