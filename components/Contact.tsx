@@ -16,7 +16,7 @@ export default function About({ contact }: ContactDataProps) {
         <h2 className="text-lg sm:text-xl md:text-2xl  font-bold mb-3">
           {t("contact.title")}
         </h2>
-        <h3 className="text-sm sm:text-base md:text-lg  font-bold mb-3">
+        <h3 className="text-sm sm:text-base md:text-lg  font-medium mb-3">
           {t("contact.desc")}
         </h3>
         <p className="text-sm sm:text-base md:text-lg mb-2">

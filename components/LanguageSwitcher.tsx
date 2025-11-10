@@ -10,8 +10,16 @@ export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
+  useEffect(() => {
+    const savedLang = localStorage.getItem("lang") as Locale | null;
+    if (savedLang && savedLang !== currentLocale) {
+      router.push(router.pathname, router.asPath, { locale: savedLang });
+    }
+  }, [router, currentLocale]);
+
   const changeLanguage = (lang: Locale) => {
     setIsOpen(false);
+    localStorage.setItem("lang", lang);
     router.push(router.pathname, router.asPath, { locale: lang });
   };
 
