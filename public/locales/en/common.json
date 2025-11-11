@@ -69,6 +69,30 @@
       }
     ]
   },
+
+  "portfolio": {
+    "title": "Projects that work",
+    "subtitle": "Design and capabilities that come to life on screen",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Landing page for a photo studio",
+        "description": "A stylish one-page site with a focus on visual content and easy navigation.",
+        "image1": "/projects/my-loft_1.jpg",
+        "image2": "/projects/my-loft_2.jpg",
+        "image3": "/projects/my-loft_3.jpg",
+        "url": "https://my-loft.vercel.app/"
+      },
+      {
+        "id": 2,
+        "title": "Mini cosmetics store",
+        "description": "Online store with shopping cart system and responsive design for mobile devices.",
+        "image": "/projects/projects/img-2.png",
+        "url": "https://example-cosmetics.com"
+      }
+    ]
+  },
+
   "contact": {
     "title": "Contact Us",
     "desc": "Have an idea or a question? We'll help you find the right solution.",

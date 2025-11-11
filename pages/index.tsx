@@ -15,6 +15,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations.js";
 import { i18nConfig } from "../next-i18next.config";
 import { GetStaticProps } from "next";
 import { useEffect, useRef } from "react";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
   const siteData = data as SiteData;
@@ -55,6 +56,7 @@ export default function Home() {
             <Hero />
             <About />
             <Services />
+            <Portfolio />
             <Contact contact={siteData.contact} />
           </div>
         </main>

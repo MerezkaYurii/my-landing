@@ -26,6 +26,12 @@ export interface Service {
   desc: string;
 }
 
+export interface Portfolio {
+  title: string;
+  subtitle: string;
+  projects: string[];
+}
+
 export interface ContactData {
   title: string;
   desc: string;
