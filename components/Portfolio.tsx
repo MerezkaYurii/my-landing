@@ -25,7 +25,7 @@ export default function Portfolio() {
             <h2 className="text-left text-lg sm:text-xl md:text-2xl font-medium mb-8 text-gray-700 dark:text-gray-100 ">
               {t("portfolio.subtitle")}
             </h2>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-wrap">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-wrap items-stretch">
               {projects.map((project) => (
                 <div key={project.id}>
                   <ProjectCard project={project} />

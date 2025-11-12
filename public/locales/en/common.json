@@ -76,8 +76,8 @@
     "projects": [
       {
         "id": 1,
-        "title": "Landing page for a photo studio",
-        "description": "A stylish one-page site with a focus on visual content and easy navigation.",
+        "title": "My loft — a personal portfolio website for a master working in the Loft style.",
+        "description": "The project is implemented as a multi-page portfolio website. It features the creator’s own photo and video works, as well as curated thematic content from the internet. The main focus is on visual content, minimalism, and intuitive navigation. \n The website is built with Next.js and Node.js. \n Media files are stored in Cloudinary, and textual data is stored in MongoDB.",
         "image1": "/projects/my-loft_1.jpg",
         "image2": "/projects/my-loft_2.jpg",
         "image3": "/projects/my-loft_3.jpg",
@@ -85,10 +85,12 @@
       },
       {
         "id": 2,
-        "title": "Mini cosmetics store",
-        "description": "Online store with shopping cart system and responsive design for mobile devices.",
-        "image": "/projects/projects/img-2.png",
-        "url": "https://example-cosmetics.com"
+        "title": "Art-gallery — a personal portfolio website for the artist Svitlana Tochynska, created in the Digital Painting style.",
+        "description": "The project is designed as a multi-page portfolio website showcasing the artist’s original works. The main focus is on visual content, minimalism, and intuitive navigation. The website is built using Next.js and Node.js. Media files are stored in Cloudinary, and textual data is stored in MongoDB.",
+        "image1": "/projects/gallery_1.jpg",
+        "image2": "/projects/gallery_2.jpg",
+        "image3": "/projects/gallery_3.jpg",
+        "url": "https://didgital-art-gallery-svetlana-tochinskaya-8atstntbi.vercel.app/"
       }
     ]
   },

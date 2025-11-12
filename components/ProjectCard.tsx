@@ -15,7 +15,7 @@ interface ProjectCardProps {
 }
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className=" p-4 bg-gray-200 dark:bg-gray-800 border rounded-xl shadow-lg shadow-gray-600 ">
+    <div className=" p-4 bg-gray-200 dark:bg-gray-800 border rounded-xl shadow-lg shadow-gray-600 h-full">
       <div className="relative flex justify-center items-center w-full max-w-[480px] sm:max-w-[500px] md:max-w-[560px] mx-auto h-[140px] sm:h-[160px] md:h-[170px] group">
         {/* Левая */}
         <div className="absolute left-[0%] top-[15%]  w-[32%] sm:w-[34%] rotate-[-4deg] z-0 transition-transform duration-500 group-hover:-translate-y-2 group-hover:rotate-[-2deg] group-hover:scale-105">
@@ -52,7 +52,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
 
       <div className="p-4">
-        <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+        <h3 className="text-xl font-bold mb-2">{project.title}</h3>
         <p className="text-sm mb-4">{project.description}</p>
         <a
           href={project.url}
